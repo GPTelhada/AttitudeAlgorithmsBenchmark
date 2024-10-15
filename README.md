@@ -4,13 +4,13 @@ This project aims to test three different algorithms for estimating attitude: a 
 
 ## Algorithms
 
-1. **Algorithm A: Complementary Filter**
+1. **Complementary Filter**
    - A simple and effective method for combining accelerometer and gyroscope data to estimate orientation.
 
-2. **Algorithm B: Kalman Filter**
+2. **Kalman Filter**
    - A more advanced algorithm that uses a series of measurements observed over time to produce estimates that tend to be more precise than those based on a single measurement alone.
 
-3. **Algorithm C: Madgwick Filter**
+3. **Madgwick Filter**
    - An orientation filter that estimates the orientation of a sensor using a quaternion representation, providing robust performance in dynamic environments.
 
 ## Features
