@@ -33,10 +33,11 @@ This project aims to test three different algorithms for estimating attitude: a 
 
 3. Monitor the output to compare the performance of each algorithm.
 
-## License
+## Performance Results
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+|      Algorithms     |   0º   |  Max  |
+|---------------------|--------|-------|
+| ComplementaryFilter | 100ms  | 179ms |
+| KalmanFilter        | 120ms  | 172ms |
+| MadgwickFilter      | 166ms  | 242ms |
 
-## Acknowledgments
-
-- Thanks to the contributors and communities that provided resources for understanding and implementing these algorithms.
