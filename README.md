@@ -37,7 +37,7 @@ This project aims to test three different algorithms for estimating attitude: a 
 
 |      Algorithms     |   0º   |  Max  |
 |---------------------|--------|-------|
-| ComplementaryFilter | 100ms  | 179ms |
-| KalmanFilter        | 120ms  | 172ms |
-| MadgwickFilter      | 166ms  | 242ms |
+| ComplementaryFilter | 100us  | 179us |
+| KalmanFilter        | 120us  | 172us |
+| MadgwickFilter      | 166us  | 242us |
 
